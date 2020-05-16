@@ -1,11 +1,10 @@
-@import "~bootstrap/scss/functions";
-@import "~bootstrap/scss/variables";
-@import "~bootstrap/scss/mixins";
 
-@import "~bootstrap/scss/reboot";
-@import "~bootstrap/scss/buttons";
+@use '~bootstrap-sass-use-migration/scss/variables' with ($primary:purple, $body-bg:yellow);
+@use '~bootstrap-sass-use-migration/scss/mixins';
 
-
+@use '~bootstrap-sass-use-migration/scss/reboot';
+@use '~bootstrap-sass-use-migration/scss/alert';
+@use '~bootstrap-sass-use-migration/scss/vendor/rfs';
 
 
 $color : blue;
